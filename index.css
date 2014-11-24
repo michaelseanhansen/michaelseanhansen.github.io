@@ -1,0 +1,119 @@
+
+
+
+#status p{
+	font-size: 60px;
+	text-align: left;
+	font-weight: normal;
+	margin: 20px 0 40px;
+}
+
+
+
+
+
+
+.project
+{
+	margin: 40px 0 0;
+}
+
+
+.qr
+{
+	display: block;
+	display: none;
+	width: 100px;
+	height: 100px;
+	margin-left: 100px;
+}
+
+
+
+.app-icon
+{
+	display: block;
+	float: left;
+	margin-right: 30px;
+}
+
+
+
+.info
+{
+	float: left;
+	width: 390px;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.info h3
+{
+	font-size: 26px;
+	margin: 0 0 5px;
+}
+
+.data
+{
+	margin-top: 20px;
+}
+
+.data p
+{
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.data ul
+{
+	margin-bottom: 10px;
+}
+
+.data li
+{
+	display: block;
+	margin-top: 10px;
+	padding-left: 10px;
+	
+}
+
+label
+{
+	display: block;
+	float: left;
+	width: 120px;
+	text-align: left;
+	clear: both;
+	margin-bottom: 5px;
+}
+
+.value
+{
+	display: block;
+	float: left;
+	width: 340px;
+}
+
+
+
+
+
+
+
+.media
+{
+	float: left;
+	margin-left: 40px;
+}
+
+.media img, .media iframe
+{
+	display: block;
+	margin-top: 20px;
+}
+
+.media img:first-of-type
+{
+	margin-top: 0;
+}
+

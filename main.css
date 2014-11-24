@@ -1,0 +1,150 @@
+
+/******************/
+/* Complete Reset */
+/******************/
+
+
+a, a:hover, a:visited, abbr, acronym, address, applet, blockquote, big, body, caption, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, form, html, h1, h2, h3, h4, h5, h6, hr, iframe, img, input, ins, kbd, label, legend, li, object, ol, p, pre, span, q, s, samp, small, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, tr, tt, ul, var
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: inherit;
+	font-family: inherit;
+	line-height: inherit;
+	vertical-align: baseline;
+	text-align: left;
+	color: inherit;
+}
+
+
+:focus{ outline: 0; }
+ol, ul{ list-style-type: none; list-style: none; }
+table{ border-collapse: separate; border-spacing: 0; }
+blockquote:before, blockquote:after, q:before, q:after{ content: ""; }
+blockquote, q{ quotes: "" ""; }
+strong{ font-weight: bold; }
+em{ font-style: italic; }
+
+.clear{ display: block; clear: both; }
+
+section, header, footer, aside{ display: block; }
+
+
+
+/***************/
+/* Basic Setup */
+/***************/
+
+body
+{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	font-weight: 100;
+	letter-spacing: 0;
+	color: #7d7d7d;
+	line-height: 1.2;
+	
+	margin: 0 auto;
+	width: 900px;
+}
+
+a{ text-decoration: none; background-color: #eee; }
+
+a:hover{ background-color: #7d7d7d; }
+
+hr
+{
+	background-color: #e0e0e0;
+	height: 1px;
+	margin-top: 20px;
+}
+
+h1
+{
+	font-size: 26px;
+	margin: 14px 0 20px;
+}
+
+h1 a
+{
+	background-color: transparent;
+}
+
+h2
+{
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: 9px;
+}
+
+h3
+{
+	margin-top: 14px;
+}
+
+h3 a
+{
+	background-color: transparent;
+}
+
+h4
+{
+	font-size: 9px;
+}
+
+p{
+	margin-top: 14px;
+}
+
+#hr-foot{
+	margin-top: 40px;
+	margin-bottom: 12px;
+}
+
+footer
+{
+	margin-bottom: 20px;
+}
+
+footer section
+{
+	float: left;
+	margin-right: 40px;
+}
+
+#footer-qr
+{
+	width: 80px;
+	height: 80px;
+	margin-top: 14px;
+}
+
+footer h2
+{
+	margin-top: 0;
+}
+
+#un-favicon
+{
+	margin-right: 1px;
+	float: right;
+	width: 16px;
+	height: 16px;
+	background: red url(/images/un-favicon.png);
+}
+
+.left
+{
+	float: left;
+	width: 480px;
+}
+
+.right
+{
+	margin-left: 40px;
+	float: left;
+}
