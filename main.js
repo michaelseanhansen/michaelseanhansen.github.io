@@ -54,7 +54,9 @@ function colors()
 	document.getElementById("un-favicon").style.backgroundColor = color;
 }
 
-
+function toTheTop() {
+	window.scrollTo(0, 0);
+}
 
 
 
