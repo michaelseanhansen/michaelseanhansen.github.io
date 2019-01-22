@@ -1,4 +1,4 @@
 michaelseanhansen.github.io
 ===========================
 
-Portfolio, resume, you name it.
+Portfolio, resume, you name it!
