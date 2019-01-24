@@ -149,14 +149,3 @@ footer h2
 	background: red url(/images/un-favicon.png);
 	cursor: pointer;
 }
-
-.left
-{
-	float: left;
-	width: 50%;
-}
-
-.right
-{
-	float: left;
-}
