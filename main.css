@@ -29,8 +29,6 @@ blockquote, q{ quotes: "" ""; }
 strong{ font-weight: bold; }
 em{ font-style: italic; }
 
-.clear{ display: block; clear: both; }
-
 section, header, footer, aside{ display: block; }
 
 
@@ -39,107 +37,51 @@ section, header, footer, aside{ display: block; }
 /* Basic Setup */
 /***************/
 
-body
-{
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 16px;
-	font-weight: 100;
-	letter-spacing: 0;
-	color: #7d7d7d;
-	line-height: 1.2;
-	
-	margin: 0 auto;
-	width: 900px;
+body {
+	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
+	font-size: 18px;
+	color: #777;
+	margin: 24px;
 }
 
-a{ text-decoration: none; }
-
-a:hover{  background-color: #eee; }
-
-hr
-{
-	background-color: #f0f0f0;
-	height: 1px;
-	margin-top: 80px;
+div {
+	max-width: 500px;
+	margin: 34px auto;
 }
 
-h1
-{
-	font-size: 26px;
-	margin: 14px 0 20px;
+a, a:visited {
+	color:  #ff7990;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #eee;
+}
+
+h1 {
+	font-size: 48px;
 	font-weight: bold;
 }
 
-h1 a, h1 a:hover
-{
-	background-color: transparent;
+h2, h3 {
+	font-size: 14px;
 }
 
-h2
-{
-	font-weight: bold;
-	margin-top: 10px;
-	font-size: 9px;
-	color: #bbb;
+h2 {
+	margin-top: 6px;
+	color: #aaa;
 }
 
-h3
-{
-	margin-top: 14px;
-}
-
-h3 a
-{
-	background-color: transparent;
-}
-
-h4
-{
-	font-size: 9px;
+h3 {
+	margin: 10px 0;
 }
 
 .link-icon {
 	width: 14px;
 }
 
-p{
+p {
 	margin-top: 14px;
-}
-
-#hr-foot{
-	margin-top: 60px;
-	margin-bottom: 12px;
-}
-
-footer
-{
-	margin-bottom: 20px;
-}
-
-footer section
-{
-	float: left;
-	margin-right: 40px;
-}
-
-#footer-qr
-{
-	width: 80px;
-	height: 80px;
-	margin-top: 14px;
-}
-
-footer h2
-{
-	margin-top: 0;
-}
-
-#un-favicon
-{
-	margin-right: 1px;
-	float: right;
-	width: 16px;
-	height: 16px;
-	background: red url(/images/un-favicon.png);
-	cursor: pointer;
+	line-height: 1.5em;
+	text-align: justify;
 }
