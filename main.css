@@ -39,7 +39,7 @@ section, header, footer, aside{ display: block; }
 
 body {
 	font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 	color: #777;
 	margin: 24px;
 }
@@ -61,10 +61,6 @@ a:hover {
 h1 {
 	font-size: 48px;
 	font-weight: bold;
-}
-
-h2, h3 {
-	font-size: 14px;
 }
 
 h2 {
